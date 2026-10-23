@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import Nav from "../component/Nav";
-// Assets folder se image import karo
-import heroImg from "../assets/Hero.jpeg";
 
 const profiles = [
   {
@@ -9,7 +7,7 @@ const profiles = [
     tagline: "Software Developer",
     title: "Software",
     highlight: "Developer",
-    image: heroImg, // Direct imported variable
+    image: "/Hero.jpeg",
     description:
       "I build scalable software solutions, Dockerized architectures, and high-performance web applications using modern tech stacks.",
     skills: [
@@ -29,7 +27,7 @@ const profiles = [
     tagline: "Digital Creator & Marketer",
     title: "Social Media",
     highlight: "Executive & Video Editor",
-    image: heroImg, // Yahan bhi same variable
+    image: "/Hero.jpeg", // Fixed: ab yeh bhi public folder wali image use karega
     description:
       "I craft engaging video content, execute strategic B2B & Meta ad campaigns, and boost brand engagement through advanced editing and data analytics.",
     skills: [
