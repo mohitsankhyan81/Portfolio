@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import Nav from "../component/Nav";
+// Assets folder se image import karo
+import heroImg from "../assets/Hero.jpeg";
 
 const profiles = [
   {
@@ -7,8 +9,7 @@ const profiles = [
     tagline: "Software Developer",
     title: "Software",
     highlight: "Developer",
-    // Direct Googleusercontent Image Link Format
-    image: "https://lh3.googleusercontent.com/d/1al_65nZzXXjewh9PJsvfjJ5q98unFM-f=s1000",
+    image: heroImg, // Direct imported variable
     description:
       "I build scalable software solutions, Dockerized architectures, and high-performance web applications using modern tech stacks.",
     skills: [
@@ -28,8 +29,7 @@ const profiles = [
     tagline: "Digital Creator & Marketer",
     title: "Social Media",
     highlight: "Executive & Video Editor",
-    // Direct Googleusercontent Image Link Format
-    image: "https://lh3.googleusercontent.com/d/1al_65nZzXXjewh9PJsvfjJ5q98unFM-f=s1000",
+    image: heroImg, // Yahan bhi same variable
     description:
       "I craft engaging video content, execute strategic B2B & Meta ad campaigns, and boost brand engagement through advanced editing and data analytics.",
     skills: [
@@ -81,7 +81,6 @@ export default function Hero() {
                   key={currentProfile.id}
                   src={currentProfile.image}
                   alt="Mohit Sankhyan"
-                  referrerPolicy="no-referrer"
                   className="h-72 w-72 rounded-2xl object-cover sm:h-96 sm:w-96 transition-all duration-700 group-hover:scale-[1.02]"
                 />
               </div>
