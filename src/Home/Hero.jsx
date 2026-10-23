@@ -7,7 +7,8 @@ const profiles = [
     tagline: "Software Developer",
     title: "Software",
     highlight: "Developer",
-    image: "https://lh3.googleusercontent.com/rd-d/ALs6j_FltE3aHHjuQH0NNLv3581pdVPU6Y9AfOCJxxppdNl-NC6uzbUobDW7WDb9lTYafQ1qEzB-a5CwiMPQIPqK2sgCFUUm-PnN3CJezGlHWKWmAqLA8Me5_IrhpZbVYdm--RIWyV0qXovOGn_5N9bZJfzYu7gKH5novMsCuGZkmOnOHLz98Eo2eVa0p7j2EZBWVJ7nPNhLcfj6nSp43Ux52qrW4KA_hmxr49fKKicZmKFtiN-Ltqn2UT7Iqi3GYFSZWgb7TgkZFBXMkiJ0y_ycJjSLHyKTLViq9ciDbv2XX8rv5rEzent-qxpu4CV9UxTjr-TOb26nK_88Y81h-3nx_d9sIECYbC1c5bvhf0jsVB6bLZSSbUWtQLemyPKiNyxPdM6vW1yZjVr0ivmd-KSFFP_tl_XX4wyPEHKmkZ8-XIiLZUDoYIetMhPZmBX6lu9jmIFRGETIugd5M-09kQv2gw1WGL14JKs57GcofLXfV1upPfq6k9sEohFsRl-Nfp7aw_hz6zDKKGZkCLW50sblBFduwdj_lwPG81RFWbQjLV0UlAshFWcNNyb8ocZ0XgfEbL7FG6quOSmzI2PSQgflFt6sDdeR3LfTnnEQWr6Th9sc7eDvbS-Mesr7wWONbcjtCsZfxAhk9lUkLUOnFomxdUCAfUiIRyvKGi8CGF2_vO4PmPEiR_OvhhhrDrAhfLWGy7uh-8ulA4fBAylViJf0uVgU6s99JGyehpeHOmG9D1_8iXBtfXw5Urq0k-U6g9qmIHLjl5mLiwO4rj81szA9_eDUKIebIHsVakHgsulBSKs-pqrG5LEy6dKiGPlyPEo2Oagd7sIQdoatxLhTpGvrdBKRicjRKa_gCfgXuC9N9lVQSzhFcuRvCLQuk-XXYBjUgIvYTvo2qQsB_X2Rod8uHDTxSWBEL6p_GQdcVYHSjNvdetGlhtYK0AdtHNRV1C1Fm0yxTGXQwMYD2PD189rnWvFcTS_zc-_ku-KkuYMo9desLIAbaJHQ4i_XLrImeEripyEiWOWLeWZQIkgLRj7lvN47xbxtJj2K11oIFieZOi0BRnaUbjgdD-4Xx3v3WTXQlphLD5R6QujCvN6iNPvuP_IG13d4BA01JQM3pASTabAVD1LjWs_CT2cJ8qOEVlvZ3HfhJ4VkCMfUOiFLDGtHQJh-JEIodC8tzpJ8d2YT0y3kVEkwt-4n2STCHb3JVCleL6t6t3H9mbYuTB86J-NvfD6miLLAl_nOHdZjThcOjguQt78=s1600",
+    // Google Drive Thumbnail Format for Chrome Compatibility
+    image: "https://drive.google.com/thumbnail?id=1al_65nZzXXjewh9PJsvfjJ5q98unFM-f&sz=w1000",
     description:
       "I build scalable software solutions, Dockerized architectures, and high-performance web applications using modern tech stacks.",
     skills: [
@@ -27,7 +28,8 @@ const profiles = [
     tagline: "Digital Creator & Marketer",
     title: "Social Media",
     highlight: "Executive & Video Editor",
-    image: "https://lh3.googleusercontent.com/rd-d/ALs6j_FltE3aHHjuQH0NNLv3581pdVPU6Y9AfOCJxxppdNl-NC6uzbUobDW7WDb9lTYafQ1qEzB-a5CwiMPQIPqK2sgCFUUm-PnN3CJezGlHWKWmAqLA8Me5_IrhpZbVYdm--RIWyV0qXovOGn_5N9bZJfzYu7gKH5novMsCuGZkmOnOHLz98Eo2eVa0p7j2EZBWVJ7nPNhLcfj6nSp43Ux52qrW4KA_hmxr49fKKicZmKFtiN-Ltqn2UT7Iqi3GYFSZWgb7TgkZFBXMkiJ0y_ycJjSLHyKTLViq9ciDbv2XX8rv5rEzent-qxpu4CV9UxTjr-TOb26nK_88Y81h-3nx_d9sIECYbC1c5bvhf0jsVB6bLZSSbUWtQLemyPKiNyxPdM6vW1yZjVr0ivmd-KSFFP_tl_XX4wyPEHKmkZ8-XIiLZUDoYIetMhPZmBX6lu9jmIFRGETIugd5M-09kQv2gw1WGL14JKs57GcofLXfV1upPfq6k9sEohFsRl-Nfp7aw_hz6zDKKGZkCLW50sblBFduwdj_lwPG81RFWbQjLV0UlAshFWcNNyb8ocZ0XgfEbL7FG6quOSmzI2PSQgflFt6sDdeR3LfTnnEQWr6Th9sc7eDvbS-Mesr7wWONbcjtCsZfxAhk9lUkLUOnFomxdUCAfUiIRyvKGi8CGF2_vO4PmPEiR_OvhhhrDrAhfLWGy7uh-8ulA4fBAylViJf0uVgU6s99JGyehpeHOmG9D1_8iXBtfXw5Urq0k-U6g9qmIHLjl5mLiwO4rj81szA9_eDUKIebIHsVakHgsulBSKs-pqrG5LEy6dKiGPlyPEo2Oagd7sIQdoatxLhTpGvrdBKRicjRKa_gCfgXuC9N9lVQSzhFcuRvCLQuk-XXYBjUgIvYTvo2qQsB_X2Rod8uHDTxSWBEL6p_GQdcVYHSjNvdetGlhtYK0AdtHNRV1C1Fm0yxTGXQwMYD2PD189rnWvFcTS_zc-_ku-KkuYMo9desLIAbaJHQ4i_XLrImeEripyEiWOWLeWZQIkgLRj7lvN47xbxtJj2K11oIFieZOi0BRnaUbjgdD-4Xx3v3WTXQlphLD5R6QujCvN6iNPvuP_IG13d4BA01JQM3pASTabAVD1LjWs_CT2cJ8qOEVlvZ3HfhJ4VkCMfUOiFLDGtHQJh-JEIodC8tzpJ8d2YT0y3kVEkwt-4n2STCHb3JVCleL6t6t3H9mbYuTB86J-NvfD6miLLAl_nOHdZjThcOjguQt78=s1600",
+    // Google Drive Thumbnail Format for Chrome Compatibility
+    image: "https://drive.google.com/thumbnail?id=1al_65nZzXXjewh9PJsvfjJ5q98unFM-f&sz=w1000",
     description:
       "I craft engaging video content, execute strategic B2B & Meta ad campaigns, and boost brand engagement through advanced editing and data analytics.",
     skills: [
@@ -79,6 +81,7 @@ export default function Hero() {
                   key={currentProfile.id}
                   src={currentProfile.image}
                   alt="Mohit Sankhyan"
+                  referrerPolicy="no-referrer"
                   className="h-72 w-72 rounded-2xl object-cover sm:h-96 sm:w-96 transition-all duration-700 group-hover:scale-[1.02]"
                 />
               </div>
