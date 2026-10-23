@@ -47,16 +47,16 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed top-5 left-1/2 z-50 w-[95%] max-w-6xl -translate-x-1/2 rounded-full border border-white/40 bg-white/10 p-2 backdrop-blur-xl shadow-lg transition-all duration-300">
-        <div className="flex items-center justify-between gap-3 pl-4">
+      <nav className="fixed top-3 left-1/2 z-50 w-[92%] max-w-6xl -translate-x-1/2 rounded-2xl md:rounded-full border border-white/15 bg-[#121212]/80 px-4 py-3 backdrop-blur-xl shadow-2xl transition-all duration-300">
+        <div className="flex items-center justify-between">
           {/* Brand Logo */}
-          <a href="/" className="text-xl font-bold tracking-tight text-white">
+          <a href="/" className="text-xl font-bold tracking-tight text-white pl-2">
             Mohit<span className="text-red-500">.</span>
           </a>
 
           {/* Mobile Toggle Button */}
           <button
-            className="rounded-full px-3 py-2 text-xl text-white md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-xl text-white md:hidden hover:bg-white/10 transition-colors"
             onClick={() => setOpen(!open)}
             aria-label="Toggle navigation"
             aria-expanded={open}
@@ -86,17 +86,18 @@ export default function Nav() {
           </div>
         </div>
 
-        {/* Mobile Menu Dropdown */}
+        {/* Clean Mobile Menu Dropdown */}
         {open && (
-          <div className="flex flex-col gap-1 px-2 pb-3 pt-3 md:hidden">
+          <div className="mt-4 flex flex-col gap-2 border-t border-white/10 pt-4 md:hidden animate-in fade-in slide-in-from-top-2 duration-200">
             {links.map(([name, href]) => (
               <a
                 key={name}
                 href={href}
                 onClick={() => setOpen(false)}
-                className="rounded-xl px-4 py-3 text-sm font-medium text-gray-200 transition hover:bg-white/20 hover:text-white"
+                className="rounded-xl px-4 py-2.5 text-base font-medium text-gray-200 hover:bg-white/10 hover:text-white transition-all flex items-center justify-between"
               >
-                {name}
+                <span>{name}</span>
+                <span className="text-xs text-gray-500">→</span>
               </a>
             ))}
 
@@ -105,9 +106,9 @@ export default function Nav() {
                 setOpen(false);
                 setShowResumeModal(true);
               }}
-              className="mt-2 rounded-xl bg-red-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-red-500 w-full"
+              className="mt-2 rounded-xl bg-red-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-lg transition hover:bg-red-500 w-full flex items-center justify-center gap-2"
             >
-              Download Resume Options 📄
+              <span>Download Resume Options</span> 📄
             </button>
           </div>
         )}
@@ -115,7 +116,7 @@ export default function Nav() {
 
       {/* Resume Download Popup / Modal */}
       {showResumeModal && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-md p-4">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-md p-4">
           <div
             ref={modalRef}
             className="w-full max-w-lg rounded-3xl border border-white/20 bg-[#121212] p-6 shadow-2xl text-white relative animate-in fade-in zoom-in duration-200"
