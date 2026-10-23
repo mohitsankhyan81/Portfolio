@@ -7,8 +7,8 @@ const profiles = [
     tagline: "Software Developer",
     title: "Software",
     highlight: "Developer",
-    // Google Drive Thumbnail Format for Chrome Compatibility
-    image: "https://drive.google.com/thumbnail?id=1al_65nZzXXjewh9PJsvfjJ5q98unFM-f&sz=w1000",
+    // Direct Googleusercontent Image Link Format
+    image: "https://lh3.googleusercontent.com/d/1al_65nZzXXjewh9PJsvfjJ5q98unFM-f=s1000",
     description:
       "I build scalable software solutions, Dockerized architectures, and high-performance web applications using modern tech stacks.",
     skills: [
@@ -28,8 +28,8 @@ const profiles = [
     tagline: "Digital Creator & Marketer",
     title: "Social Media",
     highlight: "Executive & Video Editor",
-    // Google Drive Thumbnail Format for Chrome Compatibility
-    image: "https://drive.google.com/thumbnail?id=1al_65nZzXXjewh9PJsvfjJ5q98unFM-f&sz=w1000",
+    // Direct Googleusercontent Image Link Format
+    image: "https://lh3.googleusercontent.com/d/1al_65nZzXXjewh9PJsvfjJ5q98unFM-f=s1000",
     description:
       "I craft engaging video content, execute strategic B2B & Meta ad campaigns, and boost brand engagement through advanced editing and data analytics.",
     skills: [
