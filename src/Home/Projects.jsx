@@ -136,16 +136,21 @@ export default function Projects() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center bg-[#121212]/70 border border-white/10 rounded-3xl p-8 backdrop-blur-md">
             
             {/* Channel Info Card */}
-            <div className="flex flex-col gap-4 lg:col-span-1">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-full bg-red-600 flex items-center justify-center font-bold text-2xl text-white shadow-[0_0_20px_rgba(239,68,68,0.4)]">
-                  BF
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white">Build Future</h3>
-                  <p className="text-xs text-red-400 font-medium">@build_future34</p>
-                </div>
+          {/* Channel Info Card */}
+          <div className="flex flex-col gap-4 lg:col-span-1">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-full overflow-hidden bg-red-600 flex items-center justify-center shadow-[0_0_20px_rgba(239,68,68,0.4)]">
+                <img 
+                  src="/Build.jpg" 
+                  alt="Build Future" 
+                  className="w-full h-full object-cover scale-125"
+                />
               </div>
+              <div>
+                <h3 className="text-xl font-bold text-white">Build Future</h3>
+                <p className="text-xs text-red-400 font-medium">@build_future34</p>
+              </div>
+            </div>
               <p className="text-sm text-gray-400 leading-relaxed">
                 AI, Tech, Education, Career & Growth. Watch tutorials designed to build strong programming fundamentals from scratch.
               </p>
